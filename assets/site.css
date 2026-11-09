@@ -162,3 +162,14 @@ img,svg { display:block; max-width:100%; } img { height:auto; }
 .site-footer a:hover { color:var(--primary); }
 .store-note { margin-top:14px; font-size:13px; color:var(--muted-foreground); }
 .footer-links a { margin-left:10px; }
+/* Legal pages in the landing style (Lovable /privacy layout: max-w-2xl, px-6, py-16) */
+.legal-doc { max-width:672px; margin:0 auto; padding:64px 24px; }
+.legal-doc h1 { font-size:36px; line-height:1.15; font-weight:800; margin:16px 0 8px; }
+.legal-doc .updated { font-size:13px; color:var(--muted-foreground); margin-bottom:32px; }
+.legal-doc > p { font-size:14px; line-height:1.75; color:var(--muted-foreground); }
+.legal-doc section { margin-top:32px; }
+.legal-doc h2 { font-size:20px; font-weight:700; margin-bottom:12px; }
+.legal-doc section p, .legal-doc li { font-size:14px; line-height:1.75; color:var(--muted-foreground); }
+.legal-doc ul { margin:0; padding-left:20px; } .legal-doc li { margin:6px 0; }
+.legal-doc strong { color:var(--foreground); font-weight:600; }
+.legal-doc a { color:var(--primary); } .legal-doc a:hover { text-decoration:underline; }
